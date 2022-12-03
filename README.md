@@ -1,4 +1,5 @@
 # MVL QA 과제 Report
+## 작성자: 전영우, youngwoochon@naver.com
 ## 핵심 Feature
 - GPS를 기반한 Rider와 Driver의 정확한 위치 공유
 - 위치 공유를 통한 Rider와 Driver의 연동
@@ -17,6 +18,7 @@ QA 과제 진행을 위한 TADA 앱 내 상품 검색 후, Call 수행까지의 
 - iPhone 12 Pro, iOS 16.1.1
 ## 테스트 설계서 (Mind Map) 
 
+<img src="https://user-images.githubusercontent.com/119469200/205450282-6271d72f-f457-4e10-a8d9-2416700680e7.png" width="400" height="200" />
 
 ## Daily 필수 검증 시나리오 
 - [호출] 사용자가 현재 위치에서 TADA app의 Google Map과 일치 여부
@@ -128,3 +130,16 @@ Drvier call 응답이 없을 경우, 애플워치로 instance message를 보내�
 #### Expected Result
 
 1. 두 개의 이미지가 겹쳐보이지 않아야 합니다. 
+
+
+### 확인이 필요한 사항
+
+1. 싱가폴 이북의 말레이시아 지역인 JOHOR, Pasir Gudang까지 Request가 가능한 데, 내부 정책이 궁금합니다. 
+
+2. Favourite Spot에서 Edit Spot 시, 주소를 입력할 수 있는데 글자 제한이 없으며, 입력 후, 바로 Recent Favorite에 적용되지 않습니다. 
+
+3. Payment에서 카메라 허용을 거부하면 App 내에서 다시 허용으로 변경할 수가 없습니다. 
+
+4. Payment의 Add Credit Card에서 Union Pay로 카드 등록 후, OTP 입력 시 무한로딩이 되는 현상이 있습니다. 
+
+5. Request 실패 시, [Smart call], [Retry]가 나타나는 데, General call, Smart Call 모두 동일하게 나타나지만, Smart Call일 경우, 두 개의 차이가 없는 것 같습니다. 
