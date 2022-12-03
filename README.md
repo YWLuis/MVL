@@ -26,7 +26,13 @@ QA 과제 진행을 위한 TADA 앱 내 상품 검색 후, Call 수행까지의 
 - [호출] 출발지와 목적지의 거리와 예상 시간, 각 차종의 가격이 합리적인 여부 
 - [결제] Cash 이외 QR과 Credit Card를 통한 결제의 정상 동작 검증 
 - [결제] Voucher 검증 
-- [결제] Schedule의 5가지의 조건의 동작 여부 
+- [결제] Schedule의 6가지의 조건의 동작 여부 
+1. Rider has requested, but no Response from driver
+2. 7 times cancellation a week from rider
+3. 8 times cancellation a week from rider
+4. After driver has started the trip 
+5. Cancel from driver before pick-up time
+6. Rider is not coming on time and 5 minutes is over
 - [결제] General Call과 Smart Call의 동작 검증 
 - [정산] Rider는 결제, Driver는 정산 검증 
 
