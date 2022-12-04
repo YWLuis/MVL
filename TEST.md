@@ -5,7 +5,7 @@
 - 위치 공유를 통한 Rider와 Driver의 연동
 - Rider의 목적지에 최적화된 거리와 정확한 금액 산정
 - QR Code와 Credit card의 연동 결제 
-- 7일 전 차량을 예약할 수 있는 Schedule
+- 7일 전 차량을 예약할 수 있는 Schedule 
 ## 테스트 목적 
 QA 과제 진행을 위한 TADA 앱 내 상품 검색 후, Call 수행까지의 과정을 테스트 케이스로 작성하기 위함. 
 
